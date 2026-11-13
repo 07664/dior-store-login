@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dior Store | Login</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="login.css">
+
+</head>
+
+<body>
+
+    <main class="auth-page">
+
+        <!-- ================= BAGIAN BRAND ================= -->
+        <section class="auth-brand">
+
+            <div class="brand-content">
+
+                <div class="brand-logo">
+                    DIOR
+                    <span>STORE</span>
+                </div>
+
+                <div class="gold-line"></div>
+
+                <h1>
+                    Elegance Never<br>
+                    Goes Out of Style.
+                </h1>
+
+                <p>
+                    Selamat datang di DIOR Store.
+                    Kelola produk, pesanan, pelanggan,
+                    dan penjualan dengan mudah.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FORM LOGIN ================= -->
+        <section class="auth-form">
+
+            <div class="login-box">
+
+                <div class="mobile-logo">
+                    <h1>DIOR</h1>
+                    <span>STORE</span>
+                </div>
+
+
+                <div class="login-header">
+
+                    <span class="welcome">
+                        WELCOME BACK
+                    </span>
+
+                    <h2>Login</h2>
+
+                    <p>
+                        Masuk ke akun administrator
+                        DIOR Store
+                    </p>
+
+                </div>
+
+
+                <!-- FORM -->
+                <form id="loginForm">
+
+                    <div class="input-group">
+
+                        <label for="username">
+                            Username
+                        </label>
+
+                        <input
+                            type="text"
+                            id="username"
+                            placeholder="Masukkan username"
+                            autocomplete="username"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="input-group">
+
+                        <label for="password">
+                            Password
+                        </label>
+
+                        <div class="password-box">
+
+                            <input
+                                type="password"
+                                id="password"
+                                placeholder="Masukkan password"
+                                autocomplete="current-password"
+                                required
+                            >
+
+                            <button
+                                type="button"
+                                id="togglePassword"
+                                class="show-password"
+                            >
+                                👁
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="login-options">
+
+                        <label class="remember">
+
+                            <input
+                                type="checkbox"
+                                id="remember"
+                            >
+
+                            <span>
+                                Ingat saya
+                            </span>
+
+                        </label>
+
+                        <a href="#">
+                            Lupa password?
+                        </a>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="login-button"
+                    >
+                        LOGIN
+                    </button>
+
+
+                    <p
+                        id="loginMessage"
+                        class="login-message"
+                    ></p>
+
+                </form>
+
+
+                <div class="login-footer">
+
+                    <div class="footer-line"></div>
+
+                    <p>
+                        © 2026 DIOR Store
+                    </p>
+
+                    <span>
+                        LUXURY • ELEGANCE • EXCELLENCE
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="login.js"></script>
+    
+</body>
+</html>
